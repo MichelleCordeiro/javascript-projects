@@ -24,9 +24,12 @@ Projetos de cursos e estudos com foco em Javascript.
 
 <ul style="list-style-type: none;">
   <li style="margin-bottom: 10px">
-    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Contador">✔️ Contador</a>
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Contador">Contador ✔️</a>
   </li>
   <li style="margin-bottom: 10px"> 
-    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/To-Do-list">✔️ To-Do list</a>
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/To-Do-list">To-Do list ✔️</a>
+  <li>
+  <li style="margin-bottom: 10px"> 
+    <a href="">Calculadora ✔️</a>
   <li>
 </ul>
