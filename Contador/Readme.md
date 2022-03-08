@@ -5,6 +5,8 @@
 
 <!--About session-->
 <h1 align="center">Desafio <span style="color: DarkViolet;">Contador</span> do Bootcamp Take Blip Web Developer</h1>
+<br>
+
 <p>Projeto desenvolvido no curso Introdução ao JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
 <br><br>
 

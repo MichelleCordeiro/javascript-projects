@@ -4,10 +4,10 @@
 </p>
 
 <!--About session-->
-<h1 align="center">Desafio <span style="color: DarkViolet;">To-Do List</span> do Bootcamp Take Blip Web Developer</h1>
+<h1 align="center">Atividade <span style="color: DarkViolet;">Substitui números pares num array</span> do Bootcamp Take Blip Web Developer</h1>
 <br>
 
-<p>Projeto desenvolvido no curso Introdução ao JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
+<p>Projeto desenvolvido no curso Variáveis e Tipos em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
 <br><br>
 
 <!-- Languages icons -->
@@ -22,6 +22,5 @@
 <!-- Projects -->
 <h2> 🎯 Requisitos: </h2>
 
-- Campos de input de texto e botões para adicionar a tarefa à lista e para resetar o input
-- Botão Adicionar cria checkbox com a tarefa digitada no input
-- Quando um checkbox é selecionado a tarefa é riscada
+- Troque todos os elementos pares e diferentes de zero (não pode ser zero, pois zero é par) de um <i>array</i> pelo número 0
+- Se o <i>array</i> for vazio, retorne -1
