@@ -27,15 +27,24 @@ Projetos de cursos e estudos com foco em Javascript.
     <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Contador">Contador ✔️</a>
   </li>
   <li style="margin-bottom: 10px"> 
-    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/To-Do-list">To-Do list ✔️</a>
-  <li>
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/To-do-list">To-Do list ✔️</a>
+  </li>
   <li style="margin-bottom: 10px"> 
     <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Calculadora">Calculadora ✔️</a>
-  <li>
+  </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Funcoes">Funções ✔️</a>
+  </li>
   <li style="margin-bottom: 10px"> 
     <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Palindromo">Palíndromo ✔️</a>
-  <li>
+  </li>
   <li style="margin-bottom: 10px"> 
     <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/ArraySubstituiPares "> Substitui número pares num array ✔️</a>
-  <li>
+  </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Obj-destruction "> Object Destruction ✔️</a>
+  </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/This-call-apply "> This - Call - Apply ✔️</a>
+  </li>
 </ul>
