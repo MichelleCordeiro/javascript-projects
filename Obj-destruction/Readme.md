@@ -4,10 +4,10 @@
 </p>
 
 <!--About session-->
-<h1 align="center">Atividade <span style="color: DarkViolet;">Object Destructuring</span> do Bootcamp Take Blip Web Developer</h1>
+<h1 align="center"><span style="color: DarkViolet;">Object Destructuring</span> do Bootcamp Take Blip Web Developer</h1>
 <br>
 
-<p>Projeto desenvolvido no curso Funções em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
+<p>Atividade desenvolvida no curso Funções em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
 <br><br>
 
 <!-- Languages icons -->

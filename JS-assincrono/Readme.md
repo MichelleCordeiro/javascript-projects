@@ -4,10 +4,10 @@
 </p>
 
 <!--About session-->
-<h1 align="center">Atividade <span style="color: DarkViolet;">This-Call-Apply</span> do Bootcamp Take Blip Web Developer</h1>
+<h1 align="center"><span style="color: DarkViolet;">Javascript Assíncrono (API)</span> do Bootcamp Take Blip Web Developer</h1>
 <br>
 
-<p>Projeto desenvolvido no curso Funções em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
+<p>Atividade API "catAPI" desenvolvida no curso Javascript Assíncrono do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
 <br><br>
 
 <!-- Languages icons -->
@@ -21,8 +21,12 @@
 
 <!-- Projects -->
 <h2> 🎯 Requisitos: </h2>
+Nesta atividade foi criada uma página que carrega fotos aleatórias de gatinhos sempre que o botão é clicado.
 
-- Com a função dada abaixo calculaIdade, utiliza os métodos <i>call/<i> e <i>apply</i> para modificar o valor de <i>this</i>
-  <img src="https://i.postimg.cc/VkjNLL27/Capturar.png" alt="Função calculaIdade" width="490">
+- Utiliza a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método **fetch()**
+- Manipulação do DOM para criar a imagem e ativar o evento de clique do botão
 
-- Objetos criados para esta atividade
+<!-- Dev Info -->
+<br>
+<h2> 👩‍💻 Infos: </h2>
+<p> Baseado no código da dev <a href="https://github.com/stebsnusch/basecamp-javascript/tree/main/javascript-assincrono">Stephany Nusch</a> </p>

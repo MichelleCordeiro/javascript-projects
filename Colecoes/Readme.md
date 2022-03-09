@@ -4,10 +4,10 @@
 </p>
 
 <!--About session-->
-<h1 align="center">Atividade <span style="color: DarkViolet;">This-Call-Apply</span> do Bootcamp Take Blip Web Developer</h1>
+<h1 align="center"><span style="color: DarkViolet;">Map</span> e <span style="color: DarkViolet;">Set</span> do Bootcamp Take Blip Web Developer</h1>
 <br>
 
-<p>Projeto desenvolvido no curso Funções em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
+<p>Atividade desenvolvida no curso Coleções em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
 <br><br>
 
 <!-- Languages icons -->
@@ -22,7 +22,12 @@
 <!-- Projects -->
 <h2> 🎯 Requisitos: </h2>
 
-- Com a função dada abaixo calculaIdade, utiliza os métodos <i>call/<i> e <i>apply</i> para modificar o valor de <i>this</i>
-  <img src="https://i.postimg.cc/VkjNLL27/Capturar.png" alt="Função calculaIdade" width="490">
+<b>MAP</b>
 
-- Objetos criados para esta atividade
+- Cria uma função getAdmins que recebe um Map
+- Cria um Map e o popula com nomes de usuários e seus papeis no sistema. (Ex: 'Luiz' => 'Admin')
+- Dentro de getAdmins, utiliza o loop for...of para retornar uma lista com os nomes dos usuários que são administradores
+
+<br><b>SET</b>
+
+- Dado o array [30, 30, 40, 5, 223, 2049, 3034, 5], retorna outro **array** apenas com valores únicos

@@ -47,4 +47,15 @@ Projetos de cursos e estudos com foco em Javascript.
   <li style="margin-bottom: 10px"> 
     <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/This-call-apply "> This - Call - Apply ✔️</a>
   </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Colecoes"> Coleções: Map - Set ✔️</a>
+  </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Debug-error "> Tratamento de Erros ✔️</a>
+  </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/JS-assincrono "> Javascript Assíncrono (
+      API-fetch-asynch-await
+    )✔️</a>
+  </li>
 </ul>

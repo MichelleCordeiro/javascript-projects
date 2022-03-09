@@ -9,9 +9,12 @@
 
 <p>Projeto desenvolvido no curso Variáveis e Tipos em JavaScript do bootcamp da <a href="https://digitalinnovation.one/"><img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" alt="DIO" tittle="Digital Innovation One" width="40"> Digital Innovation One.</a>
 <br><br>
-Palíndromo é uma frase ou uma palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa. Exemplo: raiar, arara, amor a Roma, a grama é amarga.
+Palíndromo é uma frase ou uma palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa. Exemplo: raiar, arara, amor a Roma, a grama é amarga.<\p>
 
 <!-- Languages icons -->
+
+<br><br>
+
 <h2> 💻 Technologies & Tool </h2>
 <p align="left">
   <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
