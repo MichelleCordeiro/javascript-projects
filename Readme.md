@@ -58,4 +58,10 @@ Projetos de cursos e estudos com foco em Javascript.
       API-fetch-asynch-await
     )✔️</a>
   </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/POO "> POO - Conta Bancária ✔️</a>
+  </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Map-filter-reduce "> Map - Filter - Reduce ✔️</a>
+  </li>
 </ul>
