@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <!--owl css-->
+    <link rel="stylesheet" href="./assets/css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl/owl.theme.default.min.css" />
+
+    <!--fonts -->
+    <link
+      rel="preconnect"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shizuru:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <title>NETFLIX CLONE</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-fixed-top">
+        <h2 class="logo">NETFLIX</h2>
+        <nav>
+          <a href="#inicio">Início</a>
+          <a href="#series-filmes">Séries e Filmes</a>
+          <a href="#top10">Top 10</a>
+          <a href="#continuar">Continuar</a>
+        </nav>
+      </div>
+    </header>
+
+    <hero class="filme-principal" id="inicio">
+      <div class="container">
+        <button aria-label="selecionar-modo" id="mode-selector" class="botao node">
+          Dark Mode
+        </button>
+
+        <h3 class="titulo">LA CASA DE PAPEL</h3>
+        <p class="descricao">
+          Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto
+          do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com
+          certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda, de
+          modo que eles possam imprimir 2,4 bilhões de euros. Para fazer isso eles precisam de onze
+          dias de reclusão, durante o qual eles vão ter que lidar com sessenta e sete reféns e as
+          forças da Polícia de Elite, com cenas de muita ação e planos brilhantes de El Profesor.
+        </p>
+        <div class="botoes">
+          <button role="button" class="botao assistir"><i class="fas fa-play"></i> Assistir</button>
+          <a href="https://www.themoviedb.org/tv/42009-black-mirror?language=pt-BR" target="_blank">
+            <button role="button" class="botao info">
+              <i class="fas fa-info-circle"></i>
+              Mais informações
+            </button>
+          </a>
+        </div>
+      </div>
+    </hero>
+
+    <main>
+      <div class="carousel-filmes" id="series-filmes">
+        <div class="owl-one owl-carousel owl-theme">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-big-bang.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-big-bang2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-familia-moderna.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-familia-moderna2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-got.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-got2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-handmaid.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-handmaid2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-The100.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-The100-2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-heroes.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-heroes2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-homem-aranha.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-homem-aranha2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-interception.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-interception2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-scream.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-scream2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <img id="img-exposta" src="./assets/img/img-flip/mini-heroes.jpg" alt="" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/img/img-flip/mini-violino.jpg" alt="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./assets/img/img-flip/mini-violino2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-melhores" id="top10">
+        <p class="melhores">Top 10 no Brasil hoje</p>
+        <div class="btns">
+          <div class="prev-slide"><</div>
+          <div class="owl-two owl-carousel owl-theme">
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Black-Mirror.jpg" alt="" />
+              <p class="number">1</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-TWD.jpg" alt="" />
+              <p class="number">2</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Vikings.jpg" alt="" />
+              <p class="number">3</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Breaking-Bad.jpg" alt="" />
+              <p class="number">4</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Dark.jpg" alt="" />
+              <p class="number">5</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Maid.jpg" alt="" />
+              <p class="number">6</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Matrix.jpg" alt="" />
+              <p class="number">7</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Stranger-Things.jpg" alt="" />
+              <p class="number">8</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini Perseguicao.jpg" alt="" />
+              <p class="number">9</p>
+            </div>
+            <div class="top">
+              <img class="top-filme" src="./assets/img/mini-Round6.jpg" alt="" />
+              <p class="number10">10</p>
+            </div>
+          </div>
+          <div class="next-slide">></div>
+        </div>
+      </div>
+
+      <div class="carousel-continuar" id="continuar">
+        <p class="continuar">Continuar assitindo como Usuário 1</p>
+        <div class="owl-three owl-carousel owl-theme">
+          <div class="item">
+            <a
+              href="https://www.themoviedb.org/tv/42009-black-mirror?language=pt-BR"
+              target="_blank"
+            >
+              <img class="box-filme" src="./assets/img/mini-Black-Mirror.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress0">
+              <span class="bar">
+                <span class="progress" style="width: 50%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a
+              href="https://www.themoviedb.org/tv/1396-breaking-bad?language=pt-BR"
+              target="_blank"
+            >
+              <img class="box-filme" src="./assets/img/mini-Breaking-Bad.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress1">
+              <span class="bar">
+                <span class="progress" style="width: 20%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.themoviedb.org/tv/70523-dark?language=pt-BR" target="_blank">
+              <img class="box-filme" src="./assets/img/mini-Dark.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress2">
+              <span class="bar">
+                <span class="progress" style="width: 85%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.themoviedb.org/tv/63174-lucifer?language=pt-BR" target="_blank">
+              <img class="box-filme" src="./assets/img/mini-Lucifer.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress3">
+              <span class="bar">
+                <span class="progress" style="width: 75%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a
+              href="https://www.themoviedb.org/movie/603-the-matrix?language=pt-BR"
+              target="_blank"
+            >
+              <img class="box-filme" src="./assets/img/mini Sing.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress4">
+              <span class="bar">
+                <span class="progress" style="width: 65%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.themoviedb.org/tv/48866-the-100?language=pt-BR" target="_blank">
+              <img class="box-filme" src="./assets/img/mini-Sex-education.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress5">
+              <span class="bar">
+                <span class="progress" style="width: 10%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a
+              href="https://www.themoviedb.org/tv/1402-the-walking-dead?language=pt-BR"
+              target="_blank"
+            >
+              <img class="box-filme" src="./assets/img/mini-TWD.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress6">
+              <span class="bar">
+                <span class="progress" style="width: 55%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.themoviedb.org/tv/44217-vikings?language=pt-BR" target="_blank">
+              <img class="box-filme" src="./assets/img/mini-Vikings.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress7">
+              <span class="bar">
+                <span class="progress" style="width: 90%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a
+              href="https://www.themoviedb.org/tv/66732-stranger-things?language=pt-BR"
+              target="_blank"
+            >
+              <img class="box-filme" src="./assets/img/mini-Stranger-Things.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress8">
+              <span class="bar">
+                <span class="progress" style="width: 25%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a
+              href="https://www.themoviedb.org/movie/75174-the-grey?language=pt-BR"
+              target="_blank"
+            >
+              <img class="box-filme" src="./assets/img/mini-Interestelar.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress9">
+              <span class="bar">
+                <span class="progress" style="width: 30%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.themoviedb.org/tv/93405?language=pt-BR" target="_blank">
+              <img class="box-filme" src="./assets/img/mini-Round6.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress10">
+              <span class="bar">
+                <span class="progress" style="width: 35%"></span>
+              </span>
+            </div>
+          </div>
+          <div class="item">
+            <a href="https://www.themoviedb.org/movie/438695-sing-2?language=pt-BR" target="_blank">
+              <img class="box-filme" src="./assets/img/mini Sing.jpg" alt="" />
+            </a>
+            <div class="progress-bar" id="progress11">
+              <span class="bar">
+                <span class="progress" style="width: 40%"></span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social">
+        <ul class="container-fluid text-center">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="conteudos">
+        <div class="row row-cols-4">
+          <ul class="col-md-3 flex-col">
+            <li><a href="#">Idioma</a></li>
+            <li><a href="#">Imprensa</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Entre em contato</a></li>
+          </ul>
+          <ul class="col-md-3 flex-col">
+            <li><a href="#">Audiodrescrição</a></li>
+            <li><a href="#">Relações com investimentos</a></li>
+            <li><a href="#">Avisos legais</a></li>
+          </ul>
+          <ul class="col-md-3 flex-col">
+            <li><a href="#">Centro de Ajuda</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+          <ul class="col-md-3 flex-col">
+            <li><a href="#">Cartão pré-pago</a></li>
+            <li><a href="#">Termo de uso</a></li>
+            <li><a href="#">Informações corporativas</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cod">
+        <div class="row">
+          <span class="cod-text">
+            <a href="#">Código de segurança</a>
+          </span>
+        </div>
+        <div class="row">
+          <span class="cod-copyright">
+            © 1997-2022 Netflix, Inc. (Desenvolvido por Michelle Cordeiro)
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="./assets/js/owl/jquery.min.js"></script>
+    <script src="./assets/js/owl/owl.carousel.min.js"></script>
+    <script src="./assets/js/owl/setup.js"></script>
+    <script src="./assets/js/owl/setup-owl-top.js"></script>
+    <script src="./assets/js/owl/setup-owl-continuar.js"></script>
+    <script src="./assets/js/nav-scroll.js"></script>
+    <script src="./assets/js/dark-mode.js"></script>
+  </body>
+</html>

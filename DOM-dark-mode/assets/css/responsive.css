@@ -1,0 +1,123 @@
+@media screen and (min-width: 1300px) {
+  footer {
+    margin: 0 11% 1% 13%;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  footer {
+    margin: 0 8% 1% 8%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+  .descricao {
+    width: 70%;
+  }
+  footer {
+    max-width: 92%;
+    margin: 0 2% 1% 2%;
+  }
+  .conteudos .flex-col {
+    margin: 1% 1%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  header .navbar-fixed-top {
+    display: flex;
+    flex-direction: column;
+    height: 9%;
+  }
+
+  header .logo {
+    margin: 10px;
+  }
+
+  header nav {
+    text-align: center;
+  }
+
+  .botao {
+    padding: 15px 18px;
+    margin-top: 5px;
+    font-size: calc(7px + 0.7vw);
+  }
+
+  .botao .assistir {
+    width: 120px;
+  }
+
+  .info {
+    width: 190px;
+  }
+
+  .filme-principal {
+    height: 700px;
+  }
+
+  .number {
+    font-size: calc(90px + 6.5vw);
+    top: calc(10px + 15%);
+    left: 15%;
+  }
+
+  footer {
+    max-width: 95%;
+    margin: 1% 2% 1% 2%;
+  }
+
+  .conteudos .row-cols-4 {
+    flex-wrap: wrap;
+  }
+
+  .conteudos .flex-col {
+    margin: 1% 0.5%;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  header .navbar-fixed-top {
+    display: flex;
+    flex-direction: column;
+    height: 12%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .filme-principal {
+    height: 800px;
+  }
+
+  .filme-principal .container {
+    width: 80%;
+  }
+
+  .filme-principal .titulo {
+    margin-top: 1%;
+  }
+  .botao {
+    padding: 15px 8px;
+    font-size: calc(10px + 0.7vw);
+  }
+
+  .botao .assistir {
+    width: 130px;
+  }
+
+  .info {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  header .navbar-fixed-top {
+    display: flex;
+    flex-direction: column;
+    height: 12%;
+  }
+
+  header nav a {
+    font-size: 0.8rem;
+  }
+}

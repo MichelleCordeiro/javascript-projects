@@ -1,0 +1,405 @@
+:root {
+  --vermelha: #e50914;
+  --preta: #141414;
+  --branca: snow;
+  --bege: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bege);
+  font-family: 'Arial', Times, serif;
+  color: var(--preta);
+}
+
+body.dark-mode {
+  background: var(--preta);
+  color: var(--bege);
+}
+
+header .navbar-fixed-top {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 5.8%;
+  align-items: center;
+  padding: 0 2.8%;
+  justify-content: flex-start;
+  z-index: 99999;
+}
+
+header .logo {
+  color: var(--vermelha);
+  font-family: 'Arial Black', Times;
+  font-size: calc(14px + 0.81vw);
+  margin-left: 10px;
+}
+
+header nav {
+  margin: 0 3%;
+}
+
+header nav a {
+  font-size: 16px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--bege);
+  margin: 0 25px;
+  line-height: 2rem;
+}
+
+header nav a:hover {
+  color: #aaa;
+}
+
+/* (hero) filme principal -------------------- */
+
+.filme-principal {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) 100%),
+    url('../img/capa_casa.jpg');
+  height: 900px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .container {
+  width: 70%;
+  padding: 0 2.8%;
+}
+
+.filme-principal .titulo {
+  margin-top: 3%;
+  font-size: calc(10px + 2vw);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: var(--bege);
+}
+
+.filme-principal .descricao {
+  font-size: calc(6px + 1vw);
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: var(--bege);
+}
+
+.botao {
+  border: none;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: calc(6px + 0.7vw);
+  font-weight: bold;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+.botao .assistir,
+.botao .light-mode {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.assistir:hover,
+.light-mode:hover {
+  background-color: rgb(190, 188, 188);
+}
+
+.botao .light-mode {
+  margin-bottom: 15px;
+}
+
+.info {
+  background-color: rgba(156, 156, 156, 0.6);
+  color: rgb(255, 255, 255);
+}
+
+.info:hover {
+  background-color: rgba(112, 111, 111, 0.6);
+}
+
+.botao i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.sun i {
+  font-size: 60px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+/* carousels  ----------------- */
+main {
+  padding: 0 2.8%;
+}
+
+/* carousel one filmes ----------------- */
+
+.carousel-filmes {
+  margin-top: -30px;
+  width: 100%;
+}
+
+.carousel-filmes .owl-two {
+  padding: 0 2.8%;
+}
+
+.carousel-filmes > .owl-item {
+  position: relative;
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front > img,
+.flip-card-back > img {
+  border-radius: 5px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* carousel two melhores filmes -------------- */
+
+.carousel-melhores {
+  padding-top: 2%;
+}
+
+.melhores {
+  font-size: calc(8px + 1vw);
+  font-weight: bold;
+  height: 100%;
+  margin: 20px 0 10px 0;
+  color: var(--bege);
+}
+
+.carousel-melhores .btns {
+  display: flex;
+  margin: 30px 75px 30px 0px;
+}
+
+.carousel-melhores .prev-slide {
+  float: left;
+  color: var(--preta);
+  padding: 5px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.prev-slide.dark-mode {
+  background: var(--preta);
+  color: var(--bege) !important;
+}
+
+.carousel-melhores .next-slide {
+  float: right;
+  color: var(--preta);
+  padding: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.next-slide.dark-mode {
+  background: var(--preta);
+  color: var(--bege) !important;
+}
+
+.top {
+  flex-direction: column;
+}
+
+.top-filme {
+  padding-left: 25%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.number {
+  font-family: 'Shizuru';
+  color: var(--vermelha);
+  text-shadow: 2px 2px rgb(151, 151, 151);
+  font-size: calc(50px + 6.5vw);
+  position: absolute;
+  top: calc(7px + 15%);
+  left: 10%;
+}
+
+.number10 {
+  font-family: 'Shizuru';
+  color: var(--vermelha);
+  text-shadow: 2px 2px rgb(151, 151, 151);
+  font-size: calc(45px + 6vw);
+  position: absolute;
+  top: calc(8px + 15%);
+  left: 10%;
+}
+
+/* carousel three continuar filmes -------------- */
+.carousel-continuar {
+  padding: 2% 0 4% 0;
+}
+
+.continuar {
+  font-size: calc(8px + 1vw);
+  font-weight: bold;
+  margin: 20px 0 30px 0;
+}
+
+.box-filme {
+  border-radius: 5px;
+}
+
+.progress-bar {
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px 0;
+  /* necessário, o bootstrap tem backgroud azul */
+  background-color: var(--bege);
+}
+
+.progress-bar.dark-mode {
+  /* necessário, o bootstrap tem backgroud azul */
+  background-color: var(--preta) !important;
+}
+
+.progress-bar span {
+  display: block;
+}
+
+.bar {
+  background-color: rgb(185, 185, 185);
+  border-radius: 5px;
+}
+
+.progress {
+  display: block;
+  height: 5px;
+  background: var(--vermelha);
+  border-radius: 5px;
+}
+
+/* footer -------------------- */
+
+footer {
+  max-width: 90%;
+  margin: 2% 20% 0 20%;
+}
+
+footer social {
+  margin: 1em;
+}
+
+.social ul {
+  /* necessárioo, o bootstrap estava centralizando */
+  text-align: start !important;
+}
+
+.social ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social ul li a {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--snow);
+}
+
+.social ul li a:hover {
+  color: grey;
+}
+
+.social ul li a .fa {
+  font-size: 22px;
+}
+
+.conteudos .row-cols-4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+  flex-wrap: nowrap;
+  row-gap: 5%;
+}
+
+.conteudos .flex-col {
+  margin: 1% 1%;
+  list-style: none;
+}
+
+.conteudos .flex-col li a {
+  flex-direction: column;
+  text-decoration: none;
+  color: grey;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.conteudos .flex-col li a:hover {
+  text-decoration: underline;
+}
+
+.cod {
+  display: block;
+  margin: 0 1%;
+}
+
+.cod .row {
+  padding: 1%;
+}
+
+.cod-text a {
+  text-decoration: none;
+  padding: 1%;
+  border: solid gray 1px;
+  text-align: start;
+  color: grey;
+  font-size: 15px;
+}
+
+.cod-text a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.cod-copyright {
+  color: grey;
+  font-size: 13px;
+  padding-bottom: 1%;
+}
