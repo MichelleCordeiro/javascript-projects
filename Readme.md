@@ -64,4 +64,7 @@ Projetos de cursos e estudos com foco em Javascript.
   <li style="margin-bottom: 10px"> 
     <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/Map-filter-reduce "> Map - Filter - Reduce ✔️</a>
   </li>
+  <li style="margin-bottom: 10px"> 
+    <a href="https://github.com/MichelleCordeiro/javascript-projects/tree/main/JogoDeNaves "> Jogo de Combate/ Naves ✔️</a>
+  </li>
 </ul>
